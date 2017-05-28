@@ -1,6 +1,6 @@
 # This is the fork of [Jcodec](https://github.com/jcodec/jcodec)
 
-_The intention behind this is the need of the bleeding edge build, because it seems like `vg4` is not edgy enough for me(56 commits behind), please don't rely on this fork, there no guarantee that it would be stable, it's been forked just for my purposes_
+_The intention behind this is the need of the bleeding edge build, because it seems like `vg4` is not edgy enough for me(56 commits behind), please don't rely on this fork, **there no guarantee that it would be stable, it's been forked just for my purposes**_
 
 ## Installation
 
