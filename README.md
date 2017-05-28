@@ -1,3 +1,32 @@
+# This is the fork of [Jcodec](https://github.com/jcodec/jcodec)
+
+_The intention behind this is the need of the bleeding edge build, because it seems like `vg4` is not edgy enough for me(56 commits behind), please don't rely on this fork, there no guarantee that it would be stable, it's been forked just for my purposes_
+
+## Installation
+
+Add to your root build.gradle:
+```Groovy
+allprojects {
+   repositories {
+      // ...
+      maven { url "https://jitpack.io" }
+   }
+}
+```
+
+In the app level `build.gradle` add the following dependency:
+```Groovy
+dependencies {
+   compile 'com.github.0zi:jcodec:0.2.0-c'
+}
+```
+
+_Note: The letter "C" in the version name stands for the word "Current"_
+
+-------
+
+## And here is the original Jcodec Readme 
+
 jcodec - a pure java implementation of video/audio codecs.
 
 # About 
