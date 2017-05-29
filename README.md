@@ -4,6 +4,8 @@ _The intention behind this is the need of the bleeding edge build, because it se
 
 ## Installation
 
+**The `SequenceEncoder8Bit` does not give the correct output, consider using version `0.1.9`**
+
 Add to your root build.gradle:
 ```Groovy
 allprojects {
